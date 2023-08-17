@@ -1,0 +1,43 @@
+body{
+   background-image: url(./12.img);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100% 100%;
+   
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.kol{
+    color: deepskyblue;
+    font-size: medium; 
+}
+ol{
+    padding: 20px;
+    font-size: large;
+    color: darkblue;
+    text-decoration: double;
+}
+ul{
+    padding: 20px;
+    font-size: larger;
+    color: fuchsia;
+    text-decoration: double;
+}
+dl{
+    padding: 20px;
+    font-size: large;
+    color: black;
+    text-decoration: dashed;
+}
+.table th{
+    font-size: larger;
+    color: firebrick;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
